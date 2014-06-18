@@ -19,18 +19,3 @@ int main() {
 	return 0;
 }
 
-int readNumber() {
-	using namespace std;
-
-	int num;
-	cin >> num;
-
-	return num;
-}
-
-int writeAnswer(int x, int y) {
-	using namespace std;
-	int z = x + y;
-
-	return z;
-}
